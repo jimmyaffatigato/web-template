@@ -1,0 +1,22 @@
+{
+  "name": "web-template",
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "build": "npx webpack",
+    "watch": "npm run build -- --watch",
+    "serve": "serve dist",
+    "dev": "concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "author": "Jimmy Affatigato",
+  "license": "MIT",
+  "dependencies": {
+    "web-server": "https://github.com/jimmyaffatigato/web-server"
+  },
+  "devDependencies": {
+    "concurrently": "^7.3.0",
+    "ts-loader": "^9.3.1",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

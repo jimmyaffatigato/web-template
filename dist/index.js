@@ -1,0 +1,2 @@
+/*! For license information please see index.js.LICENSE.txt */
+(()=>{var __webpack_modules__={"./src/index.ts":()=>{eval("\n\n//# sourceURL=webpack://web-template/./src/index.ts?")}},__webpack_exports__={};__webpack_modules__["./src/index.ts"]()})();
